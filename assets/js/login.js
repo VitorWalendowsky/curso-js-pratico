@@ -4,7 +4,7 @@ function fazerLogin(event){
     const senha = document.getElementById("senha").value.trim();
 
     if(usuario === "root" && senha === "admin"){
-        window.location.href = "dashboard.html";
+        window.location.href = "admin/dashboard";
     }else{
         alert("Credencias inválidas. Tente novamente.")
     }
